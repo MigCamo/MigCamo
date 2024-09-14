@@ -41,7 +41,7 @@
 </p>
 
 <h3 align="left">Stars</h3>
-<img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MigCamo1&layout=compact&theme=gotham" alt=MigCamo />
+<img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MigCamo&layout=compact&theme=gotham" alt=MigCamo />
 
 <p>&nbsp;<img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=MigCamo&show_icons=true&locale=en&theme=gotham" alt="MigCamo" /></p>
 
