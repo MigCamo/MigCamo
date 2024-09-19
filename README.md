@@ -2,8 +2,6 @@
 <h3 align="center">I'm a Software Engineering student at Universidad Veracruzana, proficient in both front-end and back-end development. I'm passionate about coding on web platforms, bringing ideas to life digitally. Beyond the screen, I thrive on the challenges of the gym and am a dedicated soccer enthusiast. Always seeking new opportunities to grow in the digital realm.</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=MigCamo&label=Profile%20views&color=0e75b6&style=flat" alt="MigCamo" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=MigCamo&theme=darkhub" alt="MigCamo" /></a> </p>
-
 <div> <a href="https://www.linkedin.com/in/Miguel Ángel Camo Rincón" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
 <a href="https://github.com/MigCamo" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 <a href="https://instagram.com/migguelcamo" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
