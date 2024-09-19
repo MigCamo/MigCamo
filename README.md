@@ -19,7 +19,7 @@
 <h3 align="left">Stars</h3>
 <img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MigCamo&theme=gotham&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt=MigCamo />
 
-<p>&nbsp;<img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=MigCamo&show_icons=true&locale=en&theme=gotham" alt="MigCamo" /></p>
+<p align="center">&nbsp;<img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=MigCamo&show_icons=true&locale=en&theme=gotham" alt="MigCamo" /></p>
 
 <p><img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=MigCamo&theme=gotham" alt="MigCamo" /></p>
 
