@@ -12,7 +12,7 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=laravel,php,rust,cp,cs,javascript,vue,java,nodejs,mysql,python,css,git,docker,dotnet,npm,vite, " />
+    <img src="https://skillicons.dev/icons?i=laravel,php,cs,javascript,vue,java,nodejs,mysql,python,css,git,docker,dotnet,npm,vite, " />
   </a>
 </p>
 
