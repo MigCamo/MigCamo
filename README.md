@@ -1,36 +1,104 @@
-<h1 align="center">Hi 👋, I'm Miguel Camo</h1>
-<h3 align="center">I'm a Software Engineering student at Universidad Veracruzana, proficient in both front-end and back-end development. I'm passionate about coding on web platforms, bringing ideas to life digitally. Beyond the screen, I thrive on the challenges of the gym and am a dedicated soccer enthusiast. Always seeking new opportunities to grow in the digital realm.</h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=MigCamo&label=Profile%20views&color=0e75b6&style=flat" alt="MigCamo" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=migcamo&label=Profile%20views&color=0e75b6&style=flat" alt="migcamo" /> </p>
 
-<div> <a href="https://www.linkedin.com/in/Miguel Ángel Camo Rincón" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-<a href="https://github.com/MigCamo" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
-<a href="https://instagram.com/migguelcamo" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-</div><h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/Miguel Ángel Camo Rincón" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/linked-in-alt.svg" alt="Miguel Ángel Camo Rincón" height="30" width="40" /></a><a href="https://fb.com/Miguel Camo" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/facebook.svg" alt="Miguel Camo" height="30" width="40" /></a><a href="https://instagram.com/migguelcamo" target="blank"><img align="center" src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Social/instagram.svg" alt="migguelcamo" height="30" width="40" /></a></p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=laravel,php,cs,javascript,java,nodejs,python,rabbitmq,git,docker,dotnet,azure,vite,vue " />
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&center=true&width=1200&lines=Hi+%F0%9F%91%8B%2C+I'm+Miguel+Camo;I'm+a+Software+Engineer%2C+proficient+in+both+front-end+and+back-end+development.;I'm+passionate+about+coding+on+web+platforms%2C+bringing+ideas+to+life+digitally.;Beyond+the+screen%2C+I+thrive+on+the+challenges+of+the+gym+and+am+a+dedicated+soccer+enthusiast.;Always+seeking+new+opportunities+to+grow+in+the+digital+realm." 
+      alt="Typing SVG" 
+    />
   </a>
+</div>
+
+<h2 align="center">Connect with me:</h2>
+<p align="center">
+  <a href="https://instagram.com/migguecamo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="migguecamo" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/miguel-ángel-camo-rincón-722b492a1//" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="migguecamo" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Stars</h3>
-<img align="left" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MigCamo&theme=gotham&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt=MigCamo />
-
-<p>&nbsp;<img align="center" height="180em" src="https://github-readme-stats.vercel.app/api?username=MigCamo&show_icons=true&locale=en&theme=gotham" alt="MigCamo" /></p>
-
-<p><img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=MigCamo&theme=gotham" alt="MigCamo" /></p>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><h3 align="center">Statistics</h3>
-<div align="center">
-<a href="https://github.com/MigCamo">
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=MigCamo&theme=gotham" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MigCamo&theme=gotham" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MigCamo&theme=gotham" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MigCamo&theme=gotham" height="180em" />
-<img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MigCamo&theme=gotham" height="180em" />
+<h2 align="center">Languages and Tools:</h2>
+<div style="display: flex; align-items: flex-start; align: center">
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
+      <br>csharp
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
+      <br>JavaScript
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="65" height="65" />
+      <br>TypeScript
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/java-icon.svg" alt="icon" width="65" height="65" />
+      <br>Java
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/cpp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C++
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="icon" width="65" height="65" />
+      <br>React
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" alt="icon" width="65" height="65" />
+      <br>MySQL
+    </td>
+    <td align="center" width="96"> 
+        <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65" alt="Git" />
+      <br>Git
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" height="65" alt="Django" />
+      <br>Docker
+    </td>
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65" height="65" alt="Nodejs" />
+      <br>Kubernetes
+    </td>              
+ </tr>
+</table>
 </div>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><h2 align="left">⚡Activity Graph:</h2>
-<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=MigCamo&theme=gotham"/>
+
+
+<div align="center">
+  <!-- Estatísticas gerais -->
+  <picture>
+    <!-- Modo escuro -->
+    <source media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api?username=otaviossousa&theme=tokyonight&layout=compact&show_icons=true&count_private=true&hide_border=true&title_color=70a5fd&icon_color=70a5fd&text_color=c9d1d9&bg_color=0d1117">
+    <!-- Modo claro: defina um tema apropriado (exemplo 'default' ou outro de sua escolha) -->
+    <source media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api?username=otaviossousa&layout=compact&show_icons=true&count_private=true&hide_border=true&title_color=70a5fd&icon_color=70a5fd&text_color=c9d1d9&bg_color=ffffff">
+    <!-- Fallback -->
+    <img width="49%" height="auto" 
+      src="https://github-readme-stats.vercel.app/api?username=otaviossousa&theme=tokyonight&layout=compact&show_icons=true&count_private=true&hide_border=true&title_color=70a5fd&icon_color=70a5fd&text_color=c9d1d9&bg_color=0d1117" 
+      alt="Estatísticas do GitHub">
+  </picture>
+  
+  <!-- Top Langs -->
+  <picture>
+    <!-- Modo escuro -->
+    <source media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=otaviossousa&theme=tokyonight&layout=compact&langs_count=8&hide_border=true&title_color=70a5fd&text_color=c9d1d9&bg_color=0d1117&hide=Shaderlab,hlml,shell,.c#,Jupyter Notebook">
+    <!-- Modo claro -->
+    <source media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=otaviossousa&layout=compact&langs_count=8&hide_border=true&title_color=70a5fd&text_color=c9d1d9&bg_color=ffffff&hide=Shaderlab,hlml,shell,.c#,Jupyter Notebook">
+    <!-- Fallback -->
+    <img width="37%" height="auto" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=otaviossousa&theme=tokyonight&layout=compact&langs_count=8&hide_border=true&title_color=70a5fd&text_color=c9d1d9&bg_color=0d1117&hide=Shaderlab,hlml,shell,.c#,Jupyter Notebook" 
+      alt="Linguagens mais usadas">
+  </picture>
+</div>
+
+<!-- ./GitHub Snake -->
+<div style="text-align: center;">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/otaviossousa/otaviossousa/blob/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/otaviossousa/otaviossousa/blob/output/github-snake.svg" />
+    <img alt="github-snake" src="https://github.com/otaviossousa/otaviossousa/blob/output/ocean.gif" />
+  </picture>
+</div>
