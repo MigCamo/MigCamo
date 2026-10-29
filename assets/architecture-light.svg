@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310" role="img" aria-labelledby="title description">
+<title id="title">Cómo abordo un sistema: frontend, APIs, dominio y datos</title>
+<desc id="description">Esquema conceptual de mi enfoque full stack: interfaces, servicios, responsabilidades del dominio y persistencia. Calidad transversal con Cypress y herramientas de desarrollo. No describe la implementación de un proyecto concreto.</desc>
+<g font-family="Consolas, Liberation Mono, Menlo, monospace">
+<rect x="1" y="1" width="1098" height="308" rx="5" fill="#ffffff" stroke="#d0d7df"/>
+<text x="26" y="30" fill="#98510b" font-size="11" font-weight="400" xml:space="preserve">02 / SYSTEMS THINKING</text>
+<text x="26" y="69" fill="#27313b" font-size="27" font-weight="600" xml:space="preserve">Una visión de extremo a extremo.</text>
+<text x="1072" y="30" fill="#637080" font-size="10" font-weight="400" text-anchor="end" xml:space="preserve">$ inspect architecture</text>
+<path d="M26 91H1072" fill="none" stroke="#d0d7df" opacity="1"/>
+<rect x="26" y="116" width="223" height="104" rx="3" fill="#f6f7f9" stroke="#d0d7df"/>
+<rect x="26" y="116" width="3" height="104" rx="0" fill="#215b88"/>
+<text x="43" y="141" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">01 / UI</text>
+<text x="43" y="172" fill="#215b88" font-size="21" font-weight="600" xml:space="preserve">Frontend</text>
+<text x="43" y="199" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">Angular · React · Vue.js</text>
+<path d="M259 168H292m-7-5 7 5-7 5" fill="none" stroke="#b0bac6" opacity="1"/>
+<rect x="301" y="116" width="223" height="104" rx="3" fill="#f6f7f9" stroke="#d0d7df"/>
+<rect x="301" y="116" width="3" height="104" rx="0" fill="#98510b"/>
+<text x="318" y="141" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">02 / API</text>
+<text x="318" y="172" fill="#98510b" font-size="21" font-weight="600" xml:space="preserve">Servicios</text>
+<text x="318" y="199" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">.NET · Spring Boot · Node.js</text>
+<path d="M534 168H567m-7-5 7 5-7 5" fill="none" stroke="#b0bac6" opacity="1"/>
+<rect x="576" y="116" width="223" height="104" rx="3" fill="#f6f7f9" stroke="#d0d7df"/>
+<rect x="576" y="116" width="3" height="104" rx="0" fill="#215b88"/>
+<text x="593" y="141" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">03 / CORE</text>
+<text x="593" y="172" fill="#215b88" font-size="21" font-weight="600" xml:space="preserve">Dominio</text>
+<text x="593" y="199" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">SOLID · Patrones · UML</text>
+<path d="M809 168H842m-7-5 7 5-7 5" fill="none" stroke="#b0bac6" opacity="1"/>
+<rect x="851" y="116" width="223" height="104" rx="3" fill="#f6f7f9" stroke="#d0d7df"/>
+<rect x="851" y="116" width="3" height="104" rx="0" fill="#98510b"/>
+<text x="868" y="141" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">04 / DATA</text>
+<text x="868" y="172" fill="#98510b" font-size="21" font-weight="600" xml:space="preserve">Datos</text>
+<text x="868" y="199" fill="#637080" font-size="10" font-weight="400" xml:space="preserve">SQL Server · MySQL</text>
+<path d="M26 242H1072" fill="none" stroke="#d0d7df" opacity="1"/>
+<text x="26" y="271" fill="#98510b" font-size="12" font-weight="400" xml:space="preserve">[ CALIDAD TRANSVERSAL ]</text>
+<text x="26" y="293" fill="#637080" font-size="11" font-weight="400" xml:space="preserve">Cypress · Git · Docker · Podman · Postman</text>
+<text x="1072" y="275" fill="#215b88" font-size="12" font-weight="400" text-anchor="end" xml:space="preserve">diseñar → construir → probar → evolucionar</text>
+</g>
+</svg>

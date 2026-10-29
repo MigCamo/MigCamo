@@ -2,6 +2,7 @@
 from pathlib import Path
 from html import escape
 import json
+from design import hero_card, architecture_card
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'profile.json').read_text(encoding='utf-8'))
@@ -62,45 +63,80 @@ def svg_card(theme):
     elements.extend(['</g>','</svg>'])
     return '\n'.join(elements)+'\n'
 
+def picture(name, alt):
+    return [
+        '<picture>',
+        f'  <source media="(prefers-color-scheme: dark)" srcset="./assets/{name}-dark.svg">',
+        f'  <img src="./assets/{name}-light.svg" width="1100" alt="{escape(alt)}">',
+        '</picture>', '',
+    ]
+
+
+def experience_block(experience):
+    lines = [
+        f'### {experience["project"]} · {experience["role"]}', '',
+        f'**{experience["organization"]}** · {experience["period"]}', '',
+        experience['summary'], '',
+    ]
+    lines += ['- '+bullet for bullet in experience['bullets']]
+    return lines + ['', '**Stack / enfoque:** '+ ' · '.join(experience['tags'])+'.', '']
+
+
+def project_image(project, width=440):
+    image = f'<img src="./{project["thumbnail"]}" width="{width}" alt="Captura de {escape(project["name"])}">'
+    return f'<a href="{escape(project["url"])}">{image}</a>' if project['url'] else image
+
+
 def markdown():
     contact = {row['label']:row for row in DATA['card']}
-    lines = [
-        '<!-- Generado con python scripts/build_profile.py. Editar profile.json para actualizar los datos. -->',
-        '<picture>',
-        '  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">',
-        f'  <img src="./assets/profile-light.svg" width="1100" alt="{escape(DATA["name"])} — Ingeniero en software, desarrollo full stack y arquitectura. Retrato ASCII y ficha neofetch.">',
-        '</picture>', '',
-        f'[GitHub]({contact["GitHub"]["url"]}) · [LinkedIn]({contact["LinkedIn"]["url"]}) · [Email]({contact["Email"]["url"]}) · [Portafolio y código]({DATA["portfolio_url"]}) · [CV actualizado (PDF)]({DATA["cv_url"]})', '',
-        '## `$ cat sobre_mí.md`', '',
-        f'**{DATA["name"]}** · Ingeniería en software · Xalapa, Veracruz, México.', '',
-        DATA['about'], '', DATA['approach'], '',
+    current = DATA['experiences'][0]
+    featured = DATA['projects'][:2]
+    lines = ['<!-- Generado con python scripts/build_profile.py. Editar profile.json para actualizar los datos. -->']
+    lines += picture('hero', f'{DATA["name"]} — Ingeniero en software. Full stack y arquitectura. Retrato ASCII propio y trabajo actual en Equipo ARIES.')
+    lines += [
+        f'**[↗ Portafolio y código]({DATA["portfolio_url"]})** &nbsp; / &nbsp; [LinkedIn]({contact["LinkedIn"]["url"]}) &nbsp; / &nbsp; [Email]({contact["Email"]["url"]}) &nbsp; / &nbsp; [CV actualizado (PDF)]({DATA["cv_url"]})', '',
+        DATA['about'], '',
+        '> **Ahora, en Equipo ARIES:** desarrollo frontend, migración y evolución de la arquitectura, con pruebas automatizadas en Cypress.', '',
+        '## `$ ls ./work --selected`', '',
+        '| '+ ' | '.join(f'[{project["name"]}]({project["url"]})' for project in featured)+' |',
+        '| :--- | :--- |',
+        '| '+ ' | '.join(project_image(project) for project in featured)+' |',
+        '| '+ ' | '.join(project['description'] for project in featured)+' |',
+        '| '+ ' | '.join(' · '.join(f'`{tag}`' for tag in project['tags']) for project in featured)+' |',
+        '| '+ ' | '.join(f'[↗ Explorar el código]({project["url"]})' for project in featured)+' |', '',
     ]
-    for area in DATA['expertise']:
-        lines.append(f'- **{area["name"]}:** {area["description"]}')
-    lines += ['', '## `$ less experiencia.log`', '']
-    for experience in DATA['experiences']:
-        lines += [f'### {experience["project"]} · {experience["role"]}', '', f'**{experience["organization"]}** · {experience["period"]}', '', experience['summary'], '']
-        lines += ['- '+bullet for bullet in experience['bullets']]
-        lines += ['', '**Stack / enfoque:** '+ ' · '.join(experience['tags'])+'.', '']
-    lines += ['## `$ ls -la ./proyectos`', '', '| Proyecto | Qué construí | Tecnologías |', '| --- | --- | --- |']
-    for project in DATA['projects']:
-        name = f'[{project["name"]}]({project["url"]})' if project['url'] else project['name']+' *(sin enlace público al código)*'
-        lines.append(f'| {name} | {project["description"]} | {", ".join(project["tags"])} |')
-    lines.append('')
-    for project in DATA['projects']:
-        if not project['architecture']: continue
-        lines += ['<details>', f'<summary>{escape(project["name"])}: una mirada a la arquitectura</summary>', '', project['architecture'], '']
+    for project in featured:
+        lines += ['<details>', f'<summary>{escape(project["name"])}: decisiones de arquitectura</summary>', '', project['architecture'], '']
         lines += [f'[{link["label"]}]({link["url"]})' for link in project['related']]
         lines += ['', '</details>', '']
-    lines += ['## `$ cat stack.conf`', '', '| Área | Herramientas |', '| --- | --- |']
+    lines += ['<details>', '<summary>+ Explorar otros 3 proyectos: gestión académica, negocio y aplicaciones web</summary>', '', '| Proyecto | Qué construí | Tecnologías |', '| --- | --- | --- |']
+    for project in DATA['projects'][2:]:
+        name = f'[{project["name"]}]({project["url"]})' if project['url'] else project['name']+' *(sin enlace público al código)*'
+        lines.append(f'| {project_image(project,190)}<br>{name} | {project["description"]} | {", ".join(project["tags"])} |')
+    lines += ['', '</details>', '', '## `$ inspect architecture`', '']
+    lines += picture('architecture','Mi enfoque full stack: frontend, APIs, dominio y datos; calidad transversal con Cypress y herramientas de desarrollo.')
+    lines += [DATA['approach'], '']
+    for area in DATA['expertise']:
+        lines.append(f'- **{area["name"]}:** {area["description"]}')
+    lines += ['', '<details>', '<summary>stack.conf — herramientas por área</summary>', '', '| Área | Herramientas |', '| --- | --- |']
     lines += [f'| {group["name"]} | {", ".join(group["tools"])} |' for group in DATA['stack']]
+    lines += ['', '</details>', '', '## `$ tail experiencia.log`', '']
+    lines += experience_block(current)
+    lines += ['<details>', '<summary>Experiencia anterior — desarrollo backend y sistemas académicos</summary>', '']
+    for experience in DATA['experiences'][1:]:
+        lines += experience_block(experience)
+    lines += ['</details>', '']
     education = DATA['education']
-    lines += ['', '## `$ cat formación.md`', '', f'**{education["degree"]} · {education["organization"]}**', '', f'{education["period"]} · Promedio global de la carrera: **{education["average"]}**.', '', education['recognition'], '']
+    lines += ['<details>', '<summary>Formación y reconocimientos — Universidad Veracruzana</summary>', '', f'**{education["degree"]} · {education["organization"]}**', '', f'{education["period"]} · Promedio global de la carrera: **{education["average"]}**.', '', education['recognition'], '']
     lines += [f'- [{source["label"]}]({source["url"]})' for source in education['sources']]
-    lines += ['', '## `$ ./contacto.sh`', '', f'¿Un proyecto, un reto técnico o una oportunidad? Escríbeme a [{contact["Email"]["value"]}]({contact["Email"]["url"]}).', '', f'[Mi trabajo en GitHub]({contact["GitHub"]["url"]}) · [LinkedIn]({contact["LinkedIn"]["url"]}) · [Descargar CV]({DATA["cv_url"]})', '']
+    lines += ['', '</details>', '', '<details>', '<summary>neofetch --full — ficha completa del perfil</summary>', '']
+    lines += picture('profile',f'{DATA["name"]}: ficha neofetch con perfil, tecnologías, formación y contacto.')
+    lines += ['</details>', '', '## `$ ./contacto.sh`', '', f'¿Un proyecto, un reto técnico o una oportunidad? Escríbeme a **[{contact["Email"]["value"]}]({contact["Email"]["url"]})**.', '', f'[GitHub]({contact["GitHub"]["url"]}) · [LinkedIn]({contact["LinkedIn"]["url"]}) · [Descargar CV]({DATA["cv_url"]})', '']
     return '\n'.join(lines)
 
 for theme in PALETTES:
     (ROOT / f'assets/profile-{theme}.svg').write_text(svg_card(theme),encoding='utf-8')
+    (ROOT / f'assets/hero-{theme}.svg').write_text(hero_card(theme,PALETTES[theme],PORTRAIT,DATA),encoding='utf-8')
+    (ROOT / f'assets/architecture-{theme}.svg').write_text(architecture_card(theme,PALETTES[theme]),encoding='utf-8')
 (ROOT / 'README.md').write_text(markdown(),encoding='utf-8')
-print('Generados: README.md, assets/profile-dark.svg y assets/profile-light.svg.')
+print('Generados: README, portadas, diagramas de arquitectura y fichas neofetch en ambos temas.')

@@ -166,7 +166,8 @@
           "label": "Explorar el cliente web",
           "url": "https://github.com/MigCamo/TeamsHubWebClient"
         }
-      ]
+      ],
+      "thumbnail": "assets/projects/teamshub.webp"
     },
     {
       "name": "Monopoly: Magical Worlds",
@@ -183,7 +184,8 @@
           "label": "Explorar el servidor",
           "url": "https://github.com/MigCamo/MonopolyServer"
         }
-      ]
+      ],
+      "thumbnail": "assets/projects/monopoly.webp"
     },
     {
       "name": "Gestión de proyectos guiados",
@@ -195,7 +197,8 @@
         "Gestión de proyectos"
       ],
       "architecture": null,
-      "related": []
+      "related": [],
+      "thumbnail": "assets/projects/gestion-academica.webp"
     },
     {
       "name": "Italian Pizza",
@@ -207,7 +210,8 @@
         "Gestión de negocio"
       ],
       "architecture": null,
-      "related": []
+      "related": [],
+      "thumbnail": "assets/projects/italian-pizza.webp"
     },
     {
       "name": "Plataforma de vacantes",
@@ -220,7 +224,8 @@
         "Fortify"
       ],
       "architecture": null,
-      "related": []
+      "related": [],
+      "thumbnail": "assets/projects/vacantes.webp"
     }
   ],
   "stack": [
