@@ -39,7 +39,7 @@
     },
     {
       "label": "Backend",
-      "value": "C# /.NET, Java / Spring Boot, Node.js",
+      "value": "C# / .NET, Java / Spring Boot, Node.js",
       "url": null
     },
     {
@@ -122,7 +122,7 @@
       "organization": "Universidad Veracruzana",
       "summary": "Desarrollo backend de un sistema de gestión y reserva de exámenes por competencias.",
       "bullets": [
-        "Implementación de servicios y controladores en C# y.NET, siguiendo buenas prácticas de arquitectura.",
+        "Implementación de servicios y controladores en C# y .NET, siguiendo buenas prácticas de arquitectura.",
         "Diseño y optimización de consultas y modelos de datos en MySQL.",
         "Colaboración en la integración con frontend y en la definición de requisitos técnicos."
       ],
@@ -140,7 +140,7 @@
       "organization": "Universidad Veracruzana",
       "summary": "Implementación y optimización de la lógica de negocio para una plataforma académica.",
       "bullets": [
-        "Desarrollo de autenticación y control de acceso con.NET Framework y SQL Server.",
+        "Desarrollo de autenticación y control de acceso con .NET Framework y SQL Server.",
         "Optimización de consultas para el almacenamiento y la recuperación de datos."
       ],
       "tags": [
@@ -238,7 +238,7 @@
     {
       "name": "Backend y datos",
       "tools": [
-        "C# /.NET",
+        "C# / .NET",
         "Java / Spring Boot",
         "PHP / Laravel",
         "Node.js",

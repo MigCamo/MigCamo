@@ -74,9 +74,9 @@
 <path d="M457.00 305H816.50" stroke="#b0bac6" stroke-dasharray="1 4"/>
 <text x="388" y="308" fill="#98510b" font-size="12" xml:space="preserve">Frontend</text>
 <text x="1073" y="308" fill="#215b88" font-size="12" text-anchor="end" xml:space="preserve">Angular, React, Vue.js, TypeScript</text>
-<path d="M449.75 327H794.75" stroke="#b0bac6" stroke-dasharray="1 4"/>
+<path d="M449.75 327H787.50" stroke="#b0bac6" stroke-dasharray="1 4"/>
 <text x="388" y="330" fill="#98510b" font-size="12" xml:space="preserve">Backend</text>
-<text x="1073" y="330" fill="#215b88" font-size="12" text-anchor="end" xml:space="preserve">C# /.NET, Java / Spring Boot, Node.js</text>
+<text x="1073" y="330" fill="#215b88" font-size="12" text-anchor="end" xml:space="preserve">C# / .NET, Java / Spring Boot, Node.js</text>
 <path d="M420.75 349H889.00" stroke="#b0bac6" stroke-dasharray="1 4"/>
 <text x="388" y="352" fill="#98510b" font-size="12" xml:space="preserve">Web</text>
 <text x="1073" y="352" fill="#215b88" font-size="12" text-anchor="end" xml:space="preserve">PHP / Laravel, HTML, CSS</text>

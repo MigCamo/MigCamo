@@ -40,7 +40,7 @@ Evolución del frontend con foco en arquitectura, mantenibilidad y calidad.
 
 Desarrollo backend de un sistema de gestión y reserva de exámenes por competencias.
 
-- Implementación de servicios y controladores en C# y.NET, siguiendo buenas prácticas de arquitectura.
+- Implementación de servicios y controladores en C# y .NET, siguiendo buenas prácticas de arquitectura.
 - Diseño y optimización de consultas y modelos de datos en MySQL.
 - Colaboración en la integración con frontend y en la definición de requisitos técnicos.
 
@@ -52,7 +52,7 @@ Desarrollo backend de un sistema de gestión y reserva de exámenes por competen
 
 Implementación y optimización de la lógica de negocio para una plataforma académica.
 
-- Desarrollo de autenticación y control de acceso con.NET Framework y SQL Server.
+- Desarrollo de autenticación y control de acceso con .NET Framework y SQL Server.
 - Optimización de consultas para el almacenamiento y la recuperación de datos.
 
 **Stack / enfoque:** .NET Framework · SQL Server · Autenticación.
@@ -90,7 +90,7 @@ La interfaz WPF se comunica con el servidor mediante WCF. El servidor coordina l
 | Área | Herramientas |
 | --- | --- |
 | Frontend | Angular, React, Vue.js, TypeScript, JavaScript, HTML & CSS |
-| Backend y datos | C# /.NET, Java / Spring Boot, PHP / Laravel, Node.js, SQL Server, MySQL, PostgreSQL |
+| Backend y datos | C# / .NET, Java / Spring Boot, PHP / Laravel, Node.js, SQL Server, MySQL, PostgreSQL |
 | Diseño, pruebas y entrega | Git, Docker, Podman, Cypress, Postman, UML, Scrum, ICONIX |
 
 ## `$ cat formación.md`
