@@ -1,112 +1,109 @@
-<!-- Profile Views -->
-<p align="right">
-  <img src="https://komarev.com/ghpvc/?username=migcamo&label=Profile%20Views&color=0e75b6&style=flat" alt="migcamo" />
-</p>
-
-<!-- Typing Intro -->
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img 
-      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&pause=1200&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B%2C+I'm+Miguel+Camo;Software+Engineering+Student;Full+Stack+Developer;Cybersecurity+Enthusiast;Gym+%F0%9F%8F%8B%EF%B8%8F+%7C+Soccer+%E2%9A%BD+Lover" 
-      alt="Typing SVG" 
-    />
-  </a>
+
+# Miguel Ángel Camo Rincón
+
+### Software Engineer · Full-Stack Development · Linux
+
+I build maintainable software with a strong focus on clean architecture, scalable web systems, secure development, and reliable engineering workflows.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-%C3%A1ngel-camo-rinc%C3%B3n-722b492a1/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MigCamo)
+
 </div>
 
 ---
 
-<h3 align="center">💻 About Me</h3>
+## Engineering Profile
 
-<p align="center">
-Software Engineering student passionate about building scalable web applications.<br>
-Experienced in both front-end and back-end development.<br>
-Focused on continuous growth in software architecture and cybersecurity.
-</p>
+I am a software engineer focused on designing and building robust applications across the full stack. My approach combines strong software fundamentals with pragmatic delivery: simple abstractions, clear boundaries, testable code, and technology selected according to the problem—not the trend.
 
----
+- **Software design:** modularity, separation of concerns, SOLID, and clean code.
+- **Web engineering:** responsive interfaces, scalable services, and data-driven applications.
+- **Platform mindset:** Linux-first development, containers, automation, and reproducible environments.
+- **Security:** secure-by-design thinking and continuous improvement in cybersecurity.
 
-<h2 align="center">🌐 Connect with me</h2>
+## Technical Stack
 
-<p align="center">
-  <a href="https://instagram.com/migguecamo" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
-  </a>
-  <a href="https://www.linkedin.com/in/miguel-ángel-camo-rincón-722b492a1/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" />
-  </a>
-</p>
-
----
-
-<h2 align="center">🛠 Languages and Tools</h2>
-
-<div align="center">
 <table>
   <tr>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/csharp-icon.svg" width="65" height="65"/>
-      <br>C#
+    <td><strong>Frontend</strong></td>
+    <td>
+      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+      <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000">
+      <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
     </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/js-icon.svg" width="65" height="65"/>
-      <br>JavaScript
+  </tr>
+  <tr>
+    <td><strong>Software &amp; Backend</strong></td>
+    <td>
+      <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
+      <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+      <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
     </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/ts-icon.svg" width="65" height="65"/>
-      <br>TypeScript
+  </tr>
+  <tr>
+    <td><strong>Data</strong></td>
+    <td>
+      <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
     </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/java-icon.svg" width="65" height="65"/>
-      <br>Java
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/cpp-icon.svg" width="65" height="65"/>
-      <br>C++
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/react-icon.svg" width="65" height="65"/>
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="65" height="65"/>
-      <br>MySQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/github-icon.svg" width="65" height="65"/>
-      <br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/docker-icon.svg" width="65" height="65"/>
-      <br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" width="65" height="65"/>
-      <br>Kubernetes
+  </tr>
+  <tr>
+    <td><strong>Platform &amp; DevOps</strong></td>
+    <td>
+      <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000000">
+      <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
+      <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+      <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
+      <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+      <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
     </td>
   </tr>
 </table>
-</div>
 
----
+## Linux-First Workflow
 
-<h2 align="center">📊 GitHub Stats</h2>
+Linux is my primary engineering environment. I use the command line as a core part of my workflow to automate repetitive tasks, manage source code, operate containers, and keep development environments consistent.
 
-<div align="center">
-  <img width="48%" 
-    src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MigCamo&theme=gotham" />
-  <img width="40%" 
-    src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MigCamo&theme=gotham" />
-</div>
+```text
+Linux workstation
+  ├── Bash                 → automation and system tooling
+  ├── Git & GitHub         → version control and collaboration
+  ├── Docker               → reproducible development environments
+  ├── Kubernetes           → container orchestration
+  └── GitHub Actions       → continuous integration workflows
+```
 
----
+This workflow favors **automation over repetition**, **reproducibility over machine-specific configuration**, and **observability over assumptions**.
 
-<h2 align="center">🎮 Contribution Graph</h2>
+## Engineering Principles
+
+| Principle | How I apply it |
+|---|---|
+| **KISS** | Prefer straightforward solutions and intentional abstractions. |
+| **SOLID** | Design components with focused responsibilities and stable boundaries. |
+| **DRY** | Remove meaningful duplication without hiding behavior behind premature abstractions. |
+| **Security by Design** | Treat validation, least privilege, and dependency hygiene as architecture concerns. |
+| **Continuous Improvement** | Measure, learn, document, and refine both the product and the development process. |
+
+## GitHub Overview
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/migcamo/migcamo/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/migcamo/migcamo/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/migcamo/migcamo/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MigCamo&theme=github_dark">
+    <img width="48%" alt="Miguel Camo's GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MigCamo&theme=github">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MigCamo&theme=github_dark">
+    <img width="48%" alt="Miguel Camo's repositories by language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MigCamo&theme=github">
   </picture>
 </div>
 
+---
+
+<div align="center">
+
+### Let's build reliable software.
+
+Open to collaborating on software engineering, web development, Linux, and cybersecurity projects.
+
+</div>
