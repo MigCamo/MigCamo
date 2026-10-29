@@ -1,0 +1,284 @@
+{
+  "name": "Miguel Ángel Camo Rincón",
+  "username": "MigCamo",
+  "card": [
+    {
+      "label": "Nombre",
+      "value": "Miguel Ángel Camo Rincón",
+      "url": null
+    },
+    {
+      "label": "Perfil",
+      "value": "Ingeniero en software",
+      "url": null
+    },
+    {
+      "label": "Enfoque",
+      "value": "Full stack · Arquitectura de software",
+      "url": null
+    },
+    {
+      "label": "Formación",
+      "value": "Universidad Veracruzana",
+      "url": null
+    },
+    {
+      "label": "Ubicación",
+      "value": "Xalapa, Veracruz, México",
+      "url": null
+    },
+    {
+      "label": "Ahora",
+      "value": "Equipo ARIES · Frontend & QA",
+      "url": null
+    },
+    {
+      "label": "Frontend",
+      "value": "Angular, React, Vue.js, TypeScript",
+      "url": null
+    },
+    {
+      "label": "Backend",
+      "value": "C# /.NET, Java / Spring Boot, Node.js",
+      "url": null
+    },
+    {
+      "label": "Web",
+      "value": "PHP / Laravel, HTML, CSS",
+      "url": null
+    },
+    {
+      "label": "Datos",
+      "value": "SQL Server, MySQL, PostgreSQL",
+      "url": null
+    },
+    {
+      "label": "Diseño",
+      "value": "SOLID, patrones de diseño, UML",
+      "url": null
+    },
+    {
+      "label": "Calidad",
+      "value": "Cypress, Git, Docker, Podman",
+      "url": null
+    },
+    {
+      "label": "Email",
+      "value": "miguel_camo@outlook.com",
+      "url": "mailto:miguel_camo@outlook.com"
+    },
+    {
+      "label": "GitHub",
+      "value": "@MigCamo ↗",
+      "url": "https://github.com/MigCamo"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "Miguel Camo ↗",
+      "url": "https://www.linkedin.com/in/miguel-%C3%A1ngel-camo-rinc%C3%B3n-722b492a1/"
+    }
+  ],
+  "about": "Soy ingeniero en software por la Universidad Veracruzana. Mi trabajo une el desarrollo de interfaces, la lógica de negocio y la integración de servicios. Me interesa entender el problema antes de elegir la tecnología.",
+  "approach": "Responsabilidades claras. Decisiones con contexto. Código que otro desarrollador pueda entender, probar y hacer evolucionar.",
+  "expertise": [
+    {
+      "name": "Desarrollo full stack",
+      "description": "Interfaces web, servicios backend y bases de datos conectados en una misma solución. De los requisitos a la implementación."
+    },
+    {
+      "name": "Arquitectura de software",
+      "description": "Análisis de mejoras, migración de funcionalidades y definición de estructuras mantenibles mediante patrones de diseño y arquitectura."
+    },
+    {
+      "name": "Calidad desde el inicio",
+      "description": "Pruebas automatizadas, seguimiento de errores y validación de correcciones para acompañar la evolución del producto."
+    }
+  ],
+  "experiences": [
+    {
+      "project": "EQUIPO ARIES",
+      "role": "Desarrollador Frontend & QA",
+      "period": "Feb 2026 — Actualidad",
+      "organization": "Universidad Veracruzana",
+      "summary": "Evolución del frontend con foco en arquitectura, mantenibilidad y calidad.",
+      "bullets": [
+        "Desarrollo e implementación de funcionalidades frontend para el sistema ARIES.",
+        "Análisis y estimación de puntos de mejora para planificar la evolución técnica del proyecto.",
+        "Participación en la migración del frontend y en la definición de una nueva arquitectura.",
+        "Aplicación de buenas prácticas, patrones de diseño y de arquitectura de software para organizar responsabilidades y facilitar el mantenimiento.",
+        "Automatización de pruebas con Cypress, documentación de errores y verificación de correcciones junto con el equipo."
+      ],
+      "tags": [
+        "Frontend",
+        "Migración",
+        "Arquitectura",
+        "Cypress"
+      ]
+    },
+    {
+      "project": "SISTEMA DE EXÁMENES POR COMPETENCIAS",
+      "role": "Junior Developer",
+      "period": "Ago 2025 — Dic 2025",
+      "organization": "Universidad Veracruzana",
+      "summary": "Desarrollo backend de un sistema de gestión y reserva de exámenes por competencias.",
+      "bullets": [
+        "Implementación de servicios y controladores en C# y.NET, siguiendo buenas prácticas de arquitectura.",
+        "Diseño y optimización de consultas y modelos de datos en MySQL.",
+        "Colaboración en la integración con frontend y en la definición de requisitos técnicos."
+      ],
+      "tags": [
+        "C#",
+        ".NET",
+        "MySQL",
+        "APIs"
+      ]
+    },
+    {
+      "project": "GESTIÓN DE PROYECTOS ACADÉMICOS",
+      "role": "Junior Backend Developer",
+      "period": "Feb 2024 — Jun 2024",
+      "organization": "Universidad Veracruzana",
+      "summary": "Implementación y optimización de la lógica de negocio para una plataforma académica.",
+      "bullets": [
+        "Desarrollo de autenticación y control de acceso con.NET Framework y SQL Server.",
+        "Optimización de consultas para el almacenamiento y la recuperación de datos."
+      ],
+      "tags": [
+        ".NET Framework",
+        "SQL Server",
+        "Autenticación"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TeamsHub",
+      "description": "Un ecosistema para la gestión de proyectos académicos, con clientes web y de escritorio e integración de servicios.",
+      "url": "https://github.com/MigCamo/TeamsHubAPIGateway",
+      "tags": [
+        "C# / ASP.NET",
+        "Ocelot",
+        "API Gateway"
+      ],
+      "architecture": "Un API Gateway centraliza las solicitudes y las dirige a los servicios correspondientes. Los clientes consumen una entrada común, separando la interfaz de la organización interna del backend.",
+      "related": [
+        {
+          "label": "Explorar el cliente web",
+          "url": "https://github.com/MigCamo/TeamsHubWebClient"
+        }
+      ]
+    },
+    {
+      "name": "Monopoly: Magical Worlds",
+      "description": "Juego de escritorio multijugador con comunicación cliente-servidor, partidas en línea y mensajería entre jugadores.",
+      "url": "https://github.com/MigCamo/MonopolyClient",
+      "tags": [
+        "C#",
+        "WPF",
+        "WCF"
+      ],
+      "architecture": "La interfaz WPF se comunica con el servidor mediante WCF. El servidor coordina la lógica de las partidas y el almacenamiento; el cliente permite crear o unirse a partidas de hasta cuatro jugadores.",
+      "related": [
+        {
+          "label": "Explorar el servidor",
+          "url": "https://github.com/MigCamo/MonopolyServer"
+        }
+      ]
+    },
+    {
+      "name": "Gestión de proyectos guiados",
+      "description": "Organización y seguimiento de proyectos guiados y de experiencia recepcional en un entorno académico.",
+      "url": "https://github.com/GustavoYuss/SGERYPG",
+      "tags": [
+        "Java",
+        "Escritorio",
+        "Gestión de proyectos"
+      ],
+      "architecture": null,
+      "related": []
+    },
+    {
+      "name": "Italian Pizza",
+      "description": "Sistema para la operación de una pizzería: ventas, personal, inventario y flujo de caja.",
+      "url": "https://github.com/LuisAlonsoAndradeLopez/ItalianPizza",
+      "tags": [
+        "C#",
+        "Entity Framework",
+        "Gestión de negocio"
+      ],
+      "architecture": null,
+      "related": []
+    },
+    {
+      "name": "Plataforma de vacantes",
+      "description": "Publicación de ofertas, gestión de postulaciones y seguimiento de candidatos en una aplicación web.",
+      "url": null,
+      "tags": [
+        "Laravel",
+        "Vue.js",
+        "PHP",
+        "Fortify"
+      ],
+      "architecture": null,
+      "related": []
+    }
+  ],
+  "stack": [
+    {
+      "name": "Frontend",
+      "tools": [
+        "Angular",
+        "React",
+        "Vue.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML & CSS"
+      ]
+    },
+    {
+      "name": "Backend y datos",
+      "tools": [
+        "C# /.NET",
+        "Java / Spring Boot",
+        "PHP / Laravel",
+        "Node.js",
+        "SQL Server",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Diseño, pruebas y entrega",
+      "tools": [
+        "Git",
+        "Docker",
+        "Podman",
+        "Cypress",
+        "Postman",
+        "UML",
+        "Scrum",
+        "ICONIX"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Ingeniería en Software",
+    "organization": "Universidad Veracruzana",
+    "period": "Agosto 2021 — Enero 2026",
+    "average": "9.0/10",
+    "recognition": "Incluido en las notas laudatorias de Ingeniería de Software de la UV, con promedio de 9.71 en el periodo agosto 2024 — enero 2025 y 9.38 en febrero — julio 2024.",
+    "sources": [
+      {
+        "label": "Consultar nota 2024–2025",
+        "url": "https://www.uv.mx/fei/files/2025/04/Lista-ISOF.pdf"
+      },
+      {
+        "label": "Consultar nota 2024",
+        "url": "https://www.uv.mx/fei/files/2024/09/Lista-ISOF-v2-2.pdf"
+      }
+    ]
+  },
+  "portfolio_url": "https://github.com/MigCamo/My-portfolio",
+  "cv_url": "https://github.com/MigCamo/My-portfolio/blob/main/assets/documents/miguel-camo-cv.pdf",
+  "source_commit": "984e6e4739817f4b7dff949412499569a939d812"
+}

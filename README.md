@@ -1,109 +1,111 @@
-<div align="center">
+<!-- Generado con python scripts/build_profile.py. Editar profile.json para actualizar los datos. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
+  <img src="./assets/profile-light.svg" width="1100" alt="Miguel Ángel Camo Rincón — Ingeniero en software, desarrollo full stack y arquitectura. Retrato ASCII y ficha neofetch.">
+</picture>
 
-# Miguel Ángel Camo Rincón
+[GitHub](https://github.com/MigCamo) · [LinkedIn](https://www.linkedin.com/in/miguel-%C3%A1ngel-camo-rinc%C3%B3n-722b492a1/) · [Email](mailto:miguel_camo@outlook.com) · [Portafolio y código](https://github.com/MigCamo/My-portfolio) · [CV actualizado (PDF)](https://github.com/MigCamo/My-portfolio/blob/main/assets/documents/miguel-camo-cv.pdf)
 
-### Software Engineer · Full-Stack Development · Linux
+## `$ cat sobre_mí.md`
 
-I build maintainable software with a strong focus on clean architecture, scalable web systems, secure development, and reliable engineering workflows.
+**Miguel Ángel Camo Rincón** · Ingeniería en software · Xalapa, Veracruz, México.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/miguel-%C3%A1ngel-camo-rinc%C3%B3n-722b492a1/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MigCamo)
+Soy ingeniero en software por la Universidad Veracruzana. Mi trabajo une el desarrollo de interfaces, la lógica de negocio y la integración de servicios. Me interesa entender el problema antes de elegir la tecnología.
 
-</div>
+Responsabilidades claras. Decisiones con contexto. Código que otro desarrollador pueda entender, probar y hacer evolucionar.
 
----
+- **Desarrollo full stack:** Interfaces web, servicios backend y bases de datos conectados en una misma solución. De los requisitos a la implementación.
+- **Arquitectura de software:** Análisis de mejoras, migración de funcionalidades y definición de estructuras mantenibles mediante patrones de diseño y arquitectura.
+- **Calidad desde el inicio:** Pruebas automatizadas, seguimiento de errores y validación de correcciones para acompañar la evolución del producto.
 
-## Engineering Profile
+## `$ less experiencia.log`
 
-I am a software engineer focused on designing and building robust applications across the full stack. My approach combines strong software fundamentals with pragmatic delivery: simple abstractions, clear boundaries, testable code, and technology selected according to the problem—not the trend.
+### EQUIPO ARIES · Desarrollador Frontend & QA
 
-- **Software design:** modularity, separation of concerns, SOLID, and clean code.
-- **Web engineering:** responsive interfaces, scalable services, and data-driven applications.
-- **Platform mindset:** Linux-first development, containers, automation, and reproducible environments.
-- **Security:** secure-by-design thinking and continuous improvement in cybersecurity.
+**Universidad Veracruzana** · Feb 2026 — Actualidad
 
-## Technical Stack
+Evolución del frontend con foco en arquitectura, mantenibilidad y calidad.
 
-<table>
-  <tr>
-    <td><strong>Frontend</strong></td>
-    <td>
-      <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-      <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000">
-      <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Software &amp; Backend</strong></td>
-    <td>
-      <img alt="C Sharp" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white">
-      <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-      <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Data</strong></td>
-    <td>
-      <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
-    </td>
-  </tr>
-  <tr>
-    <td><strong>Platform &amp; DevOps</strong></td>
-    <td>
-      <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000000">
-      <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-      <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-      <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
-      <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
-      <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-    </td>
-  </tr>
-</table>
+- Desarrollo e implementación de funcionalidades frontend para el sistema ARIES.
+- Análisis y estimación de puntos de mejora para planificar la evolución técnica del proyecto.
+- Participación en la migración del frontend y en la definición de una nueva arquitectura.
+- Aplicación de buenas prácticas, patrones de diseño y de arquitectura de software para organizar responsabilidades y facilitar el mantenimiento.
+- Automatización de pruebas con Cypress, documentación de errores y verificación de correcciones junto con el equipo.
 
-## Linux-First Workflow
+**Stack / enfoque:** Frontend · Migración · Arquitectura · Cypress.
 
-Linux is my primary engineering environment. I use the command line as a core part of my workflow to automate repetitive tasks, manage source code, operate containers, and keep development environments consistent.
+### SISTEMA DE EXÁMENES POR COMPETENCIAS · Junior Developer
 
-```text
-Linux workstation
-  ├── Bash                 → automation and system tooling
-  ├── Git & GitHub         → version control and collaboration
-  ├── Docker               → reproducible development environments
-  ├── Kubernetes           → container orchestration
-  └── GitHub Actions       → continuous integration workflows
-```
+**Universidad Veracruzana** · Ago 2025 — Dic 2025
 
-This workflow favors **automation over repetition**, **reproducibility over machine-specific configuration**, and **observability over assumptions**.
+Desarrollo backend de un sistema de gestión y reserva de exámenes por competencias.
 
-## Engineering Principles
+- Implementación de servicios y controladores en C# y.NET, siguiendo buenas prácticas de arquitectura.
+- Diseño y optimización de consultas y modelos de datos en MySQL.
+- Colaboración en la integración con frontend y en la definición de requisitos técnicos.
 
-| Principle | How I apply it |
-|---|---|
-| **KISS** | Prefer straightforward solutions and intentional abstractions. |
-| **SOLID** | Design components with focused responsibilities and stable boundaries. |
-| **DRY** | Remove meaningful duplication without hiding behavior behind premature abstractions. |
-| **Security by Design** | Treat validation, least privilege, and dependency hygiene as architecture concerns. |
-| **Continuous Improvement** | Measure, learn, document, and refine both the product and the development process. |
+**Stack / enfoque:** C# · .NET · MySQL · APIs.
 
-## GitHub Overview
+### GESTIÓN DE PROYECTOS ACADÉMICOS · Junior Backend Developer
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MigCamo&theme=github_dark">
-    <img width="48%" alt="Miguel Camo's GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MigCamo&theme=github">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MigCamo&theme=github_dark">
-    <img width="48%" alt="Miguel Camo's repositories by language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MigCamo&theme=github">
-  </picture>
-</div>
+**Universidad Veracruzana** · Feb 2024 — Jun 2024
 
----
+Implementación y optimización de la lógica de negocio para una plataforma académica.
 
-<div align="center">
+- Desarrollo de autenticación y control de acceso con.NET Framework y SQL Server.
+- Optimización de consultas para el almacenamiento y la recuperación de datos.
 
-### Let's build reliable software.
+**Stack / enfoque:** .NET Framework · SQL Server · Autenticación.
 
-Open to collaborating on software engineering, web development, Linux, and cybersecurity projects.
+## `$ ls -la ./proyectos`
 
-</div>
+| Proyecto | Qué construí | Tecnologías |
+| --- | --- | --- |
+| [TeamsHub](https://github.com/MigCamo/TeamsHubAPIGateway) | Un ecosistema para la gestión de proyectos académicos, con clientes web y de escritorio e integración de servicios. | C# / ASP.NET, Ocelot, API Gateway |
+| [Monopoly: Magical Worlds](https://github.com/MigCamo/MonopolyClient) | Juego de escritorio multijugador con comunicación cliente-servidor, partidas en línea y mensajería entre jugadores. | C#, WPF, WCF |
+| [Gestión de proyectos guiados](https://github.com/GustavoYuss/SGERYPG) | Organización y seguimiento de proyectos guiados y de experiencia recepcional en un entorno académico. | Java, Escritorio, Gestión de proyectos |
+| [Italian Pizza](https://github.com/LuisAlonsoAndradeLopez/ItalianPizza) | Sistema para la operación de una pizzería: ventas, personal, inventario y flujo de caja. | C#, Entity Framework, Gestión de negocio |
+| Plataforma de vacantes *(sin enlace público al código)* | Publicación de ofertas, gestión de postulaciones y seguimiento de candidatos en una aplicación web. | Laravel, Vue.js, PHP, Fortify |
+
+<details>
+<summary>TeamsHub: una mirada a la arquitectura</summary>
+
+Un API Gateway centraliza las solicitudes y las dirige a los servicios correspondientes. Los clientes consumen una entrada común, separando la interfaz de la organización interna del backend.
+
+[Explorar el cliente web](https://github.com/MigCamo/TeamsHubWebClient)
+
+</details>
+
+<details>
+<summary>Monopoly: Magical Worlds: una mirada a la arquitectura</summary>
+
+La interfaz WPF se comunica con el servidor mediante WCF. El servidor coordina la lógica de las partidas y el almacenamiento; el cliente permite crear o unirse a partidas de hasta cuatro jugadores.
+
+[Explorar el servidor](https://github.com/MigCamo/MonopolyServer)
+
+</details>
+
+## `$ cat stack.conf`
+
+| Área | Herramientas |
+| --- | --- |
+| Frontend | Angular, React, Vue.js, TypeScript, JavaScript, HTML & CSS |
+| Backend y datos | C# /.NET, Java / Spring Boot, PHP / Laravel, Node.js, SQL Server, MySQL, PostgreSQL |
+| Diseño, pruebas y entrega | Git, Docker, Podman, Cypress, Postman, UML, Scrum, ICONIX |
+
+## `$ cat formación.md`
+
+**Ingeniería en Software · Universidad Veracruzana**
+
+Agosto 2021 — Enero 2026 · Promedio global de la carrera: **9.0/10**.
+
+Incluido en las notas laudatorias de Ingeniería de Software de la UV, con promedio de 9.71 en el periodo agosto 2024 — enero 2025 y 9.38 en febrero — julio 2024.
+
+- [Consultar nota 2024–2025](https://www.uv.mx/fei/files/2025/04/Lista-ISOF.pdf)
+- [Consultar nota 2024](https://www.uv.mx/fei/files/2024/09/Lista-ISOF-v2-2.pdf)
+
+## `$ ./contacto.sh`
+
+¿Un proyecto, un reto técnico o una oportunidad? Escríbeme a [miguel_camo@outlook.com](mailto:miguel_camo@outlook.com).
+
+[Mi trabajo en GitHub](https://github.com/MigCamo) · [LinkedIn](https://www.linkedin.com/in/miguel-%C3%A1ngel-camo-rinc%C3%B3n-722b492a1/) · [Descargar CV](https://github.com/MigCamo/My-portfolio/blob/main/assets/documents/miguel-camo-cv.pdf)
